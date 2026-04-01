@@ -1,5 +1,4 @@
 function makeTransaction(quantity, pricePerDroid) {
-    console.log(`Result: ${quantity * pricePerDroid} credits`);
     return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits. Delivery (${quantity} droids) is free of charge!`;
 }
 
